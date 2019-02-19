@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/my_style.css"/>
+        <link rel="stylesheet" href="../team_profile/css/my_style.css"/>
+        <script src="js/jquery-3.3.1.min (1).js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/responsiv.js"></script>
+        </head>
+        <body class="container-fluid">
+            <section class="row justify-content-center form_wizard">
+                <div class="col-lg-8">
+                    <header class="container-fluid" style="padding: 0px">
+                        <div>
+                            <img src="img/24_06_14_Quality_Gradignan_10_1.jpg"/>
+                            <div class="row align-items-center justify-content-center">
+                                <div>
+                                    YOUR RESERVATION
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 form_steps">
+                                <div>
+                                <ul>
+                                    <li class="step_click" nbr-step="1">
+                                        Choose date
+                                    </li>
+                                    <li class="step_click" nbr-step="2">
+                                        Choise Room
+                                    </li>
+                                    <li class="step_click" nbr-step="3">
+                                        Make a Reservation
+                                    </li>
+                                    <li class="step_click" nbr-step="4">
+                                        Confirmation
+                                    </li>
+                                </ul>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-animated">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg form_wizard_content">
+                                <form>
+                                    <div class="container-fluid form_item">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Check in:
+                                                        </span>
+                                                    </div>
+                                                    <input type="date" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Check out:
+                                                        </span>
+                                                    </div>
+                                                    <input type="date" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Duration:
+                                                        </span>
+                                                    </div>
+                                                    <select class="form-control">
+                                                        <option>
+                                                            1 night
+                                                        </option>
+                                                        <option>
+                                                            2 night
+                                                        </option>
+                                                        <option>
+                                                            3 night
+                                                        </option>
+                                                        <option>
+                                                            4 night
+                                                        </option>
+                                                        <option>
+                                                            5 night
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Room:
+                                                        </span>
+                                                    </div>
+                                                    <select class="form-control">
+                                                        <option>
+                                                            1 room
+                                                        </option>
+                                                        <option>
+                                                            2 room
+                                                        </option>
+                                                        <option>
+                                                            3 room
+                                                        </option>
+                                                        <option>
+                                                            4 room
+                                                        </option>
+                                                        <option>
+                                                            5 room
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- form step two -->
+                                    <div class="container-fluid form_item form_choose_room" style="display: none">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            Room 1:
+                                                        </td>
+                                                        <td>
+                                                            room one
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Room 2:
+                                                        </td>
+                                                        <td>
+                                                            room two
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="container-fluid" style="padding: 0px">
+                                                    <div class="row">
+                                                        <div class="col-lg">
+                                                            <div class="input-group mb-3">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text" id="basic-addon1">
+                                                                        Check in:
+                                                                    </span>
+                                                                </div>
+                                                                <input type="date" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg">
+                                                            <div class="input-group mb-3">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text" id="basic-addon1">
+                                                                        Check out:
+                                                                    </span>
+                                                                </div>
+                                                                <input type="date" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg">
+                                                            <div class="input-group mb-3">
+                                                                <div class="input-group-prepend" style="width: 100%">
+                                                                    <span class="input-group-text" id="basic-addon1" style="padding: 0px">
+                                                                        Room 1:
+                                                                    </span>
+                                                                </div>
+                                                                <select class="form-control" style="padding: 0px">
+                                                                    <option>
+                                                                        1Adult
+                                                                    </option>
+                                                                    <option>
+                                                                        2Adult
+                                                                    </option>
+                                                                    <option>
+                                                                        3Adult
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg">
+                                                            <div class="input-group mb-3">
+                                                                <select class="form-control" style="padding: 0px">
+                                                                    <option>
+                                                                        no child
+                                                                    </option>
+                                                                    <option>
+                                                                        1Child
+                                                                    </option>
+                                                                    <option>
+                                                                        2Child
+                                                                    </option>
+                                                                    <option>
+                                                                        3Child
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg">
+                                                            <div class="input-group mb-3">
+                                                                <div class="input-group-prepend" style="width: 100%">
+                                                                    <span class="input-group-text" id="basic-addon1" style="padding: 0px">
+                                                                        Room 2:
+                                                                    </span>
+                                                                </div>
+                                                                <select class="form-control" style="padding: 0px">
+                                                                    <option>
+                                                                        1Adult
+                                                                    </option>
+                                                                    <option>
+                                                                        2Adult
+                                                                    </option>
+                                                                    <option>
+                                                                        3Adult
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg">
+                                                            <div class="input-group mb-3">
+                                                                <select class="form-control" style="padding: 0px">
+                                                                    <option>
+                                                                        no child
+                                                                    </option>
+                                                                    <option>
+                                                                        1Child
+                                                                    </option>
+                                                                    <option>
+                                                                        2Child
+                                                                    </option>
+                                                                    <option>
+                                                                        3Child
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- form step three -->
+                                    <div class="container-fluid form_item form_user_information" style="display: none">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            First name:
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Last name:
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Phone number:
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Email adress:
+                                                        </span>
+                                                    </div>
+                                                    <input type="email" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Adress location:
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend" style="margin-bottom: 35px">
+                                                        <span class="input-group-text" id="basic-addon1">
+                                                            Special requirement:
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <input type="checkbox" style="
+                                                       background-color: transparent;
+                                                       border: white 1px solid
+                                                       "/>
+                                                <a href="" style="
+                                                   color: white;
+                                                   font-weight: bold
+                                                   ">
+                                                    I have read and accept the 
+                                                    <em style="color: yellow">terms and conditions.</em>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid form_item">
+                                        
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="container-fluid">
+                        <div class="row justify-content-end">
+                            <div>
+                            </div>
+                            <div>
+                                <button class="nxt_step">
+                                    NEXT STEP
+                                    <img src="img/fleche_icon.png"/>
+                                </button>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </body>
+</html>
